@@ -18,6 +18,15 @@ Targeted SQL Queries regarding various business questions can be found here.XX
 
 ## Data Structure & Initial Checks {#Data Structure}
 XX database structure as seen below consists of XX tables: table1, table2, etc., with a total row count of x records.
+  customers                 100,000 rows
+  orders                    100,000 rows
+  order_items               129,650 rows
+  products                   15,000 rows
+  product_categories             42 rows
+  sellers                     2,500 rows
+  payments                  107,804 rows
+  reviews                    78,687 rows
+  geolocation                 5,000 rows
 
 XX Explain data cleaning and quality techniques here
 <hr>
