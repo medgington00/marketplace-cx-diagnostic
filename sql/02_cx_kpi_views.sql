@@ -135,24 +135,55 @@ SELECT
          THEN 1 ELSE 0 END                              AS has_seller_response,
 
     -- ── Root cause taxonomy (keyword classification) ───────
+    -- ── Root cause taxonomy (keyword classification) ───────
     CASE
-        WHEN LOWER(r.review_message) SIMILAR TO
-             '%(late|delay|slow|forever|days late|took too long|past.*date)%'
-             THEN 'late_delivery'
-        WHEN LOWER(r.review_message) SIMILAR TO
-             '%(broken|damag|cracked|defect|dented|not work|doesn.t work)%'
-             THEN 'damaged_defective'
-        WHEN LOWER(r.review_message) SIMILAR TO
-             '%(wrong item|wrong size|wrong color|not what i ordered|incorrect|different product)%'
-             THEN 'wrong_item'
-        WHEN LOWER(r.review_message) SIMILAR TO
-             '%(no response|never repl|unresponsive|ignored|couldn.t reach|customer service)%'
-             THEN 'seller_unresponsive'
-        WHEN LOWER(r.review_message) SIMILAR TO
-             '%(cheap|poor quality|flimsy|not as described|disappointing|poorly made|fell apart)%'
-             THEN 'quality_below_expectations'
-        WHEN r.review_score <= 2
-             THEN 'uncategorized_complaint'
+        WHEN review_score <= 2 AND (
+            LOWER(review_message) LIKE '%late%' OR
+            LOWER(review_message) LIKE '%delay%' OR
+            LOWER(review_message) LIKE '%days late%' OR
+            LOWER(review_message) LIKE '%too long%' OR
+            LOWER(review_message) LIKE '%took forever%'
+        ) THEN 'late_delivery'
+
+        WHEN review_score <= 2 AND (
+            LOWER(review_message) LIKE '%broken%' OR
+            LOWER(review_message) LIKE '%damaged%' OR
+            LOWER(review_message) LIKE '%cracked%' OR
+            LOWER(review_message) LIKE '%defective%' OR
+            LOWER(review_message) LIKE '%not work%' OR
+            LOWER(review_message) LIKE '%dented%'
+        ) THEN 'damaged_defective'
+
+        WHEN review_score <= 2 AND (
+            LOWER(review_message) LIKE '%wrong item%' OR
+            LOWER(review_message) LIKE '%wrong size%' OR
+            LOWER(review_message) LIKE '%wrong color%' OR
+            LOWER(review_message) LIKE '%not what i ordered%' OR
+            LOWER(review_message) LIKE '%different product%' OR
+            LOWER(review_message) LIKE '%incorrect%'
+        ) THEN 'wrong_item'
+
+        WHEN review_score <= 2 AND (
+            LOWER(review_message) LIKE '%no response%' OR
+            LOWER(review_message) LIKE '%never replied%' OR
+            LOWER(review_message) LIKE '%unresponsive%' OR
+            LOWER(review_message) LIKE '%ignored%' OR
+            LOWER(review_message) LIKE '%customer service%'
+        ) THEN 'seller_unresponsive'
+
+        WHEN review_score <= 2 AND (
+            LOWER(review_message) LIKE '%cheap%' OR
+            LOWER(review_message) LIKE '%poor quality%' OR
+            LOWER(review_message) LIKE '%flimsy%' OR
+            LOWER(review_message) LIKE '%not as described%' OR
+            LOWER(review_message) LIKE '%disappointing%' OR
+            LOWER(review_message) LIKE '%poorly made%' OR
+            LOWER(review_message) LIKE '%fell apart%'
+        ) THEN 'quality_below_expectations'
+
+        WHEN review_score <= 2
+            THEN 'uncategorized_complaint'
+
         ELSE NULL
     END                                 AS root_cause,
 
