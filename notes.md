@@ -54,3 +54,36 @@
 - Standard states flat 12-14% — two parallel realities
 - Hotspot states: KY, AL, AR, WY, MS, LA, OR, ID, WV, MT, WA, AK
 - Rural South + Pacific NW/Mountain West = last-mile gap
+
+## Repeat Complainer Findings (Query 07)
+
+- 7.8% of customers filed 2+ complaints (3,031 customers)
+- Repeat complainers = 16.6% of total GMV ($1.07M) — outsized value
+- Avg lifetime GMV by complaint tier:
+    0 complaints:  $134
+    1 complaint:   $188
+    2 complaints:  $315  (2.4x zero-complaint customers)
+    3+ complaints: $464  (3.5x zero-complaint customers)
+- 50.4% of complainers placed another order after complaining
+- Avg 177 days to return after first complaint
+- Root cause mix nearly identical across complaint #1, #2, #3
+  — repeat complainers are hitting the same systemic problems
+- No escalation in complaint type over time — structural failures
+  not one-off incidents
+- 88.8% unanswered reviews + 50% return rate =
+  missed service recovery opportunity on highest-value customers
+
+  ## Installment Correlation Findings (Query 08)
+
+- 6+ installment orders: 30.2% detractor rate vs 22.1% single-pay
+- Lift: 1.37x — payment stress amplifies complaint sensitivity
+- Avg order value: $120 (6+ installments) vs $75 (single-pay)
+  — higher-value purchases feel losses more acutely
+- Compounding effect: 6+ installments AND late = 38.0% detractor
+  vs 19.1% for single-pay on-time — 2x gap, highest combo in data
+- Top 6+ installment categories: TV & Audio (10.4%),
+  Electronics (9.2%), Furniture (9.1%) — all high-detractor cats
+- $160K detractor GMV tied to high-installment orders
+- 5-6% of monthly orders use 6+ installments — stable, not growing
+- Key insight: payment terms are a proxy for purchase sensitivity
+  — these customers need proactive outreach when anything goes wrong
