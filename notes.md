@@ -26,3 +26,17 @@
 - Pacific NW: OR (41.2%), WA (38.0%)
 - CA/TX/IL/NY: 11-12% late rate — 3-4x better than problem states
 - Nov/Dec late volume nearly doubles but rate stays consistent (~16-17%)
+
+## Seller Cohort Findings (Query 05)
+
+- 24 problem sellers identified (top decile, 30+ orders)
+- Problem seller avg detractor rate: 47.2% vs 21.3% standard (2.2x)
+- Problem sellers: 47% of their own GMV generates a complaint
+- $107K detractor GMV tied to problem seller cohort
+- Problem seller top complaint: seller_unresponsive at 16.6%
+  (vs 11.2% overall — they go silent when customers complain)
+- Furniture problem sellers: 58.5% detractor rate — highest category
+- Electronics problem sellers: 57.8% detractor rate
+- sel_001072: 6,120 orders, $527K GMV, 41.1% detractor rate
+  — largest single risk seller, just below P90 flag threshold
+- 24 sellers / 2,819 orders = avg 117 orders per problem seller
