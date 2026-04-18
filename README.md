@@ -1,4 +1,4 @@
-## Project Background {#Background}
+## Project Background
 
 This section should clearly describe the background of the company as well as the goalsXX
 
@@ -16,22 +16,20 @@ The SQL queries utilized to clean, organize, and prepare data for the dashboard 
 Targeted SQL Queries regarding various business questions can be found here.XX
 <hr>
 
-## Data Structure & Initial Checks {#Data Structure}
-XX database structure as seen below consists of XX tables: table1, table2, etc., with a total row count of x records.
-  customers                 100,000 rows
-  orders                    100,000 rows
-  order_items               129,650 rows
-  products                   15,000 rows
-  product_categories             42 rows
-  sellers                     2,500 rows
-  payments                  107,804 rows
-  reviews                    78,687 rows
-  geolocation                 5,000 rows
+## Data Structure & Initial Checks
+The database consists of 9 tables with a total of **530,066 records** across all entities.The central fact table is `orders` (100,000 rows), which connects to `customers`, `order_items`, `products`, `sellers`, `payments`, and `reviews`  via foreign keys. All referential integrity checks returned zero orphaned records.
 
-XX Explain data cleaning and quality techniques here
+![ERD](img/erd.png)
+
+A data quality audit was performed prior to analysis, the full audit queries and findings can be found [here](sql/01_data_quality_audit.sql).
+
+No nulls were found on any critical analytical fields. The 9.1% null rate on `delivered_customer_ts` is expected and corresponds to the 12.1% of orders that did not reach delivered status. The dataset spans **January 1, 2023 through December 31, 2024** (24 full months of transaction history).
+
+One pre-analysis observation: **88.8% of customer reviews received no seller response**, indicating a systemic service recovery gap explored further in the analysis.
+
 <hr>
 
-## Executive Summary {#Executive Summary}
+## Executive Summary
 
 3-4 sentence of overview of findings (get to the point) XX
 USE NUMBERS AND SCALE HERE
@@ -52,7 +50,7 @@ ok now go 1 degree of detail further
 - simple story about historical trends
 - structured image of graph/chart
 
-### Recommendations: {#Recommendations}
+### Recommendations:
 
 Based on discovered insights, the following recommendations have been provided:
 - a
