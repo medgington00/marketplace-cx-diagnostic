@@ -40,3 +40,17 @@
 - sel_001072: 6,120 orders, $527K GMV, 41.1% detractor rate
   — largest single risk seller, just below P90 flag threshold
 - 24 sellers / 2,819 orders = avg 117 orders per problem seller
+
+## Regional Hotspot Findings (Query 06)
+
+- 12 hotspot states identified (2x+ national late rate)
+- Hotspot avg late rate: 40.7% vs 15.7% national (2.6x)
+- Hotspot detractor rate: 25.1% vs 21.3% standard
+- $185K detractor GMV in hotspot states
+- Hotspot detractor GMV rate: 26.6% vs 22.8% standard
+- In hotspot states, late delivery = 27.5% of complaints
+  vs 12.4% overall — confirms logistics-specific problem
+- Late rate flat 38-43% every month for 24 months — structural
+- Standard states flat 12-14% — two parallel realities
+- Hotspot states: KY, AL, AR, WY, MS, LA, OR, ID, WV, MT, WA, AK
+- Rural South + Pacific NW/Mountain West = last-mile gap
