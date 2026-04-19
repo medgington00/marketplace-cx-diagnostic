@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 540" width="1120" height="540">
+<path d="M 215 106 C 237 106 237 150 260 150" fill="none" stroke="#5A7BA8" stroke-width="1.2" opacity="0.6"/>
+<circle cx="215" cy="106" r="3" fill="#5A7BA8" opacity="0.5"/>
+<circle cx="260" cy="150" r="3" fill="#5A7BA8" opacity="0.5"/>
+<path d="M 445 150 C 467 150 467 139 490 139" fill="none" stroke="#5A7BA8" stroke-width="1.2" opacity="0.6"/>
+<circle cx="445" cy="150" r="3" fill="#5A7BA8" opacity="0.5"/>
+<circle cx="490" cy="139" r="3" fill="#5A7BA8" opacity="0.5"/>
+<path d="M 352 260 C 352 290 242 290 242 320" fill="none" stroke="#5A7BA8" stroke-width="1.2" opacity="0.6"/>
+<circle cx="352" cy="260" r="3" fill="#5A7BA8" opacity="0.5"/>
+<circle cx="242" cy="320" r="3" fill="#5A7BA8" opacity="0.5"/>
+<path d="M 352 260 C 352 290 472 290 472 320" fill="none" stroke="#5A7BA8" stroke-width="1.2" opacity="0.6"/>
+<circle cx="352" cy="260" r="3" fill="#5A7BA8" opacity="0.5"/>
+<circle cx="472" cy="320" r="3" fill="#5A7BA8" opacity="0.5"/>
+<path d="M 675 139 C 697 139 697 117 720 117" fill="none" stroke="#5A7BA8" stroke-width="1.2" opacity="0.6"/>
+<circle cx="675" cy="139" r="3" fill="#5A7BA8" opacity="0.5"/>
+<circle cx="720" cy="117" r="3" fill="#5A7BA8" opacity="0.5"/>
+<path d="M 582 238 C 582 279 702 279 702 320" fill="none" stroke="#5A7BA8" stroke-width="1.2" opacity="0.6"/>
+<circle cx="582" cy="238" r="3" fill="#5A7BA8" opacity="0.5"/>
+<circle cx="702" cy="320" r="3" fill="#5A7BA8" opacity="0.5"/>
+<path d="M 905 117 C 912 117 912 95 920 95" fill="none" stroke="#5A7BA8" stroke-width="1.2" opacity="0.6"/>
+<circle cx="905" cy="117" r="3" fill="#5A7BA8" opacity="0.5"/>
+<circle cx="920" cy="95" r="3" fill="#5A7BA8" opacity="0.5"/>
+<rect x="260" y="40" width="185" height="220" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="260" y="40" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="260" y="66" width="185" height="6" fill="#1B2A4A"/>
+<text x="352" y="61" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">orders</text>
+<line x1="260" y1="72" x2="445" y2="72" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="261" y="72" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="266" y="76" width="20" height="14" rx="3" fill="#E8954A" opacity="0.85"/>
+<text x="276" y="86" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">PK</text>
+<text x="292" y="87" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">order_id</text>
+<text x="437" y="87" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="261" y="94" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<rect x="266" y="98" width="20" height="14" rx="3" fill="#6B9FD4" opacity="0.75"/>
+<text x="276" y="108" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">FK</text>
+<text x="292" y="109" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">customer_id</text>
+<text x="437" y="109" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="261" y="116" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="292" y="131" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">order_status</text>
+<text x="437" y="131" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="261" y="138" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="292" y="153" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">purchase_ts</text>
+<text x="437" y="153" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">TIMESTAMP</text>
+<rect x="261" y="160" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="292" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">approved_ts</text>
+<text x="437" y="175" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">TIMESTAMP</text>
+<rect x="261" y="182" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="292" y="197" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">delivered_carrier_ts</text>
+<text x="437" y="197" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">TIMESTAMP</text>
+<rect x="261" y="204" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="292" y="219" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">delivered_customer_ts</text>
+<text x="437" y="219" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">TIMESTAMP</text>
+<rect x="261" y="226" width="183" height="22" rx="0" fill="rgba(100,130,180,0.06)"/>
+<text x="292" y="241" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">estimated_delivery_ts</text>
+<text x="437" y="241" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">TIMESTAMP</text>
+<rect x="30" y="40" width="185" height="132" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="30" y="40" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="30" y="66" width="185" height="6" fill="#1B2A4A"/>
+<text x="122" y="61" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">customers</text>
+<line x1="30" y1="72" x2="215" y2="72" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="31" y="72" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="36" y="76" width="20" height="14" rx="3" fill="#E8954A" opacity="0.85"/>
+<text x="46" y="86" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">PK</text>
+<text x="62" y="87" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">customer_id</text>
+<text x="207" y="87" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="31" y="94" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="62" y="109" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">customer_unique_id</text>
+<text x="207" y="109" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="31" y="116" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="62" y="131" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">customer_state</text>
+<text x="207" y="131" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="31" y="138" width="183" height="22" rx="0" fill="rgba(100,130,180,0.06)"/>
+<text x="62" y="153" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">customer_zip_prefix</text>
+<text x="207" y="153" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="490" y="40" width="185" height="198" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="490" y="40" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="490" y="66" width="185" height="6" fill="#1B2A4A"/>
+<text x="582" y="61" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">order_items</text>
+<line x1="490" y1="72" x2="675" y2="72" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="491" y="72" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="496" y="76" width="20" height="14" rx="3" fill="#6B9FD4" opacity="0.75"/>
+<text x="506" y="86" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">FK</text>
+<text x="522" y="87" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">order_id</text>
+<text x="667" y="87" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="491" y="94" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="522" y="109" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">order_item_id</text>
+<text x="667" y="109" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">INT</text>
+<rect x="491" y="116" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="496" y="120" width="20" height="14" rx="3" fill="#6B9FD4" opacity="0.75"/>
+<text x="506" y="130" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">FK</text>
+<text x="522" y="131" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">product_id</text>
+<text x="667" y="131" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="491" y="138" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<rect x="496" y="142" width="20" height="14" rx="3" fill="#6B9FD4" opacity="0.75"/>
+<text x="506" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">FK</text>
+<text x="522" y="153" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">seller_id</text>
+<text x="667" y="153" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="491" y="160" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="522" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">price</text>
+<text x="667" y="175" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">DECIMAL</text>
+<rect x="491" y="182" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="522" y="197" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">freight_value</text>
+<text x="667" y="197" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">DECIMAL</text>
+<rect x="491" y="204" width="183" height="22" rx="0" fill="rgba(100,130,180,0.12)"/>
+<text x="522" y="219" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">shipping_limit_date</text>
+<text x="667" y="219" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">TIMESTAMP</text>
+<rect x="150" y="320" width="185" height="198" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="150" y="320" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="150" y="346" width="185" height="6" fill="#1B2A4A"/>
+<text x="242" y="341" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">reviews</text>
+<line x1="150" y1="352" x2="335" y2="352" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="151" y="352" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="156" y="356" width="20" height="14" rx="3" fill="#E8954A" opacity="0.85"/>
+<text x="166" y="366" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">PK</text>
+<text x="182" y="367" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">review_id</text>
+<text x="327" y="367" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="151" y="374" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<rect x="156" y="378" width="20" height="14" rx="3" fill="#6B9FD4" opacity="0.75"/>
+<text x="166" y="388" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">FK</text>
+<text x="182" y="389" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">order_id</text>
+<text x="327" y="389" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="151" y="396" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="182" y="411" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">review_score</text>
+<text x="327" y="411" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">INT</text>
+<rect x="151" y="418" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="182" y="433" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">review_title</text>
+<text x="327" y="433" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="151" y="440" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="182" y="455" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">review_message</text>
+<text x="327" y="455" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="151" y="462" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="182" y="477" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">review_created_ts</text>
+<text x="327" y="477" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">TIMESTAMP</text>
+<rect x="151" y="484" width="183" height="22" rx="0" fill="rgba(100,130,180,0.12)"/>
+<text x="182" y="499" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">review_answered_ts</text>
+<text x="327" y="499" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">TIMESTAMP</text>
+<rect x="380" y="320" width="185" height="154" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="380" y="320" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="380" y="346" width="185" height="6" fill="#1B2A4A"/>
+<text x="472" y="341" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">payments</text>
+<line x1="380" y1="352" x2="565" y2="352" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="381" y="352" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="386" y="356" width="20" height="14" rx="3" fill="#6B9FD4" opacity="0.75"/>
+<text x="396" y="366" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">FK</text>
+<text x="412" y="367" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">order_id</text>
+<text x="557" y="367" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="381" y="374" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="412" y="389" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">payment_sequential</text>
+<text x="557" y="389" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">INT</text>
+<rect x="381" y="396" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="412" y="411" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">payment_type</text>
+<text x="557" y="411" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="381" y="418" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="412" y="433" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">payment_installments</text>
+<text x="557" y="433" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">INT</text>
+<rect x="381" y="440" width="183" height="22" rx="0" fill="rgba(100,130,180,0.12)"/>
+<text x="412" y="455" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">payment_value</text>
+<text x="557" y="455" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">DECIMAL</text>
+<rect x="720" y="40" width="185" height="154" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="720" y="40" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="720" y="66" width="185" height="6" fill="#1B2A4A"/>
+<text x="812" y="61" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">products</text>
+<line x1="720" y1="72" x2="905" y2="72" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="721" y="72" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="726" y="76" width="20" height="14" rx="3" fill="#E8954A" opacity="0.85"/>
+<text x="736" y="86" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">PK</text>
+<text x="752" y="87" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">product_id</text>
+<text x="897" y="87" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="721" y="94" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<rect x="726" y="98" width="20" height="14" rx="3" fill="#6B9FD4" opacity="0.75"/>
+<text x="736" y="108" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">FK</text>
+<text x="752" y="109" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">category_id</text>
+<text x="897" y="109" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="721" y="116" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="726" y="120" width="20" height="14" rx="3" fill="#6B9FD4" opacity="0.75"/>
+<text x="736" y="130" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">FK</text>
+<text x="752" y="131" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">seller_id</text>
+<text x="897" y="131" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="721" y="138" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="752" y="153" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">price</text>
+<text x="897" y="153" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">DECIMAL</text>
+<rect x="721" y="160" width="183" height="22" rx="0" fill="rgba(100,130,180,0.12)"/>
+<text x="752" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">weight_grams</text>
+<text x="897" y="175" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">INT</text>
+<rect x="920" y="40" width="185" height="110" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="920" y="40" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="920" y="66" width="185" height="6" fill="#1B2A4A"/>
+<text x="1012" y="61" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">product_categories</text>
+<line x1="920" y1="72" x2="1105" y2="72" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="921" y="72" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="926" y="76" width="20" height="14" rx="3" fill="#E8954A" opacity="0.85"/>
+<text x="936" y="86" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">PK</text>
+<text x="952" y="87" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">category_id</text>
+<text x="1097" y="87" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="921" y="94" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="952" y="109" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">category_slug</text>
+<text x="1097" y="109" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="921" y="116" width="183" height="22" rx="0" fill="rgba(100,130,180,0.12)"/>
+<text x="952" y="131" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">category_name</text>
+<text x="1097" y="131" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="610" y="320" width="185" height="132" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="610" y="320" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="610" y="346" width="185" height="6" fill="#1B2A4A"/>
+<text x="702" y="341" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">sellers</text>
+<line x1="610" y1="352" x2="795" y2="352" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="611" y="352" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="616" y="356" width="20" height="14" rx="3" fill="#E8954A" opacity="0.85"/>
+<text x="626" y="366" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">PK</text>
+<text x="642" y="367" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">seller_id</text>
+<text x="787" y="367" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="611" y="374" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="642" y="389" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">seller_state</text>
+<text x="787" y="389" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="611" y="396" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="642" y="411" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">seller_zip_prefix</text>
+<text x="787" y="411" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="611" y="418" width="183" height="22" rx="0" fill="rgba(100,130,180,0.06)"/>
+<text x="642" y="433" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">onboarded_date</text>
+<text x="787" y="433" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">DATE</text>
+<rect x="840" y="320" width="185" height="132" rx="6" ry="6" fill="none" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="840" y="320" width="185" height="32" rx="6" ry="6" fill="#1B2A4A"/>
+<rect x="840" y="346" width="185" height="6" fill="#1B2A4A"/>
+<text x="932" y="341" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">geolocation</text>
+<line x1="840" y1="352" x2="1025" y2="352" stroke="#5A7BA8" stroke-width="1"/>
+<rect x="841" y="352" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<rect x="846" y="356" width="20" height="14" rx="3" fill="#E8954A" opacity="0.85"/>
+<text x="856" y="366" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="600" fill="#FFF">PK</text>
+<text x="872" y="367" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">zip_prefix</text>
+<text x="1017" y="367" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="841" y="374" width="183" height="22" fill="rgba(100,130,180,0.06)"/>
+<text x="872" y="389" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">state</text>
+<text x="1017" y="389" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">STRING</text>
+<rect x="841" y="396" width="183" height="22" fill="rgba(100,130,180,0.12)"/>
+<text x="872" y="411" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">latitude</text>
+<text x="1017" y="411" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">DECIMAL</text>
+<rect x="841" y="418" width="183" height="22" rx="0" fill="rgba(100,130,180,0.06)"/>
+<text x="872" y="433" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8FA4BE">longitude</text>
+<text x="1017" y="433" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#8FA4BE" opacity="0.6">DECIMAL</text>
+</svg>
