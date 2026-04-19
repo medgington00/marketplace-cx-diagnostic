@@ -1,6 +1,3 @@
-# Marketplace CX Diagnostic: Root-Cause Analysis of 100K Customer Experiences
-
-
 # Project Background
 
 A US-based online marketplace has processed over 100,000 orders across a 24-month period (January 2023 through December 2024), generating $9.4M in gross merchandise value through 2,500 active sellers and 42 product categories. Customer reviews indicate a 68% satisfaction rate (CSAT), but a 22.6% detractor rate signals persistent friction across the order lifecycle. This analysis uses a marketplace transaction dataset as a structural analog to on-demand delivery platforms -- the data model (sellers, orders, delivery SLAs, reviews, payments) mirrors the operational environment at companies like DoorDash, Instacart, and Uber Eats.
@@ -51,8 +48,6 @@ One pre-analysis observation: **88.8% of customer reviews received no seller res
 ### Overview of Findings
 
 Across 78,687 reviewed orders, the marketplace carries $1.57M in GMV directly tied to detractor reviews. Damaged/defective product -- not late delivery -- is the #1 categorized complaint driver at 16.7% of detractors, concentrated in Furniture, Large Appliances, and Electronics. Meanwhile, a structural logistics gap in 12 states has persisted at 2.6x the national late rate for 24 consecutive months with zero improvement, and a small cohort of 24 problem sellers operates at double the marketplace detractor rate while going silent on customer complaints. The highest-risk retention segment -- repeat complainers -- turns out to be the highest-value: they spend 2.4x more than non-complainers but receive almost no structured follow-up.
-
-Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. The dashboard can be viewed [here](https://app.powerbi.com/view?r=eyJrIjoiOTg4MDQyNzctZGQwOC00ODFhLTlkZjctYTYyNGI5MTRkOTFlIiwidCI6ImJiY2FkYzkxLTRmZTktNDU4Mi1iNWJhLTRkNjgyNTQzNmJlYSJ9).
 
 ![Executive Dashboard](docs/executive_overview.png)
 
