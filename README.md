@@ -17,7 +17,7 @@ The SQL queries used to build the master analysis view can be found [here](sql/0
 
 Targeted SQL queries regarding various business questions can be found here: [Root Cause](sql/03_root_cause_taxonomy.sql) | [Late Delivery](sql/04_late_delivery_impact.sql) | [Seller Cohort](sql/05_seller_cohort.sql) | [Regional Hotspots](sql/06_regional_hotspots.sql) | [Repeat Complainers](sql/07_repeat_complainers.sql) | [Installment Correlation](sql/08_installment_correlation.sql)
 
-An interactive Power BI dashboard used to report and explore CX trends can be found [here](LINK).
+An interactive Power BI dashboard used to report and explore CX trends can be found [here](https://app.powerbi.com/view?r=eyJrIjoiOTg4MDQyNzctZGQwOC00ODFhLTlkZjctYTYyNGI5MTRkOTFlIiwidCI6ImJiY2FkYzkxLTRmZTktNDU4Mi1iNWJhLTRkNjgyNTQzNmJlYSJ9).
 
 
 
